@@ -9,7 +9,7 @@ win.keypad(1)#initialise the keypad for the new window created
 win.border(0)#prevent the double border
 win.nodelay(1)#returns -1 if no key is pressed
 
-ESC = 27
+ESC = 27#code for escape key
 key = curses.KEY_RIGHT#initial key when the game starts
 snake=[(5,10),(5,9),(5,8)]#y,x cordinate form
 food = (10,30)
